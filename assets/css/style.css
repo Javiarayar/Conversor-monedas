@@ -1,0 +1,76 @@
+* {
+    font-family: "Playwrite GB S", cursive;
+}
+body {
+    background-color: #e0f7fa !important;  /* Fondo azul claro */
+    padding: 2rem;
+    font-size: 16px;
+    color: #00796b; /* Texto verde oscuro */
+}
+header {
+    border-bottom: 1px inset #004d40;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #004d40 !important; /* Texto verde oscuro */
+    font-size: 2rem;
+}
+h2 {
+    padding-top: 1rem;
+    text-align: center;
+    color: #004d40 !important; 
+    font-size: 1.5rem;
+}
+h3 { 
+    padding-top: 1rem;
+    text-align: center;
+    color: #004d40 !important; /* Texto verde oscuro */
+    font-size: 1.2rem;
+}
+
+aside{
+    display: flex;
+
+}
+.formulario {
+    background-color: #b2dfdb; /* Fondo verde claro */
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1.5rem 3rem;
+}
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #80cbc4; /* Fondo verde más claro */
+    color: #004d40; /* Texto verde oscuro */
+    border: none;
+}
+button {
+    width: 50%;
+    color: #e0f7fa; /* Texto azul claro */
+    background-color: #004d40; /* Fondo verde oscuro */
+    margin-top: 10px;
+    padding: 10px 0;
+    border: none;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: #00796b; /* Fondo verde medio */
+}
+.resultado {
+    text-align: center;
+    color: #004d40; /* Texto verde oscuro */
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+.contenedor-grafico {
+    width: 50%;
+    margin: 0 auto;
+}
+.grafico {
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 5px;
+    background-color: #e0f2f1; /* Fondo azul verdoso claro */
+}
